@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_high_score"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#122"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pinno.game2.HighScoreActivity">
+
+    <TextView
+        android:id="@+id/empty_hs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="No High Score Yet!"
+        android:textColor="#ffa"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/hs_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hs_2"
+        android:layout_margin="16dp"
+        android:textColor="#ffa"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="jfdklfjdkl"/>
+
+    <TextView
+        android:id="@+id/hs_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="16dp"
+        android:textColor="#ffa"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="jfdklfjdkl"/>
+
+    <TextView
+        android:id="@+id/hs_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hs_2"
+        android:layout_margin="16dp"
+        android:textColor="#ffa"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="jfdklfjdkl"/>
+</RelativeLayout>
